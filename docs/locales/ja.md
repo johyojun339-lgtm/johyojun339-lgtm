@@ -24,7 +24,7 @@
 | :--- | :--- |
 | **主要システム言語** | Rust (nightly/stable), C (C11/C23), Go (1.23+), x86-64 / AArch64 アセンブリ |
 | **カーネル・トレース** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **スクリプト・自動化** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **スクリプト・システムツール** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### OSおよびインフラストラクチャ
 | 領域 | 技術スタック・環境 |

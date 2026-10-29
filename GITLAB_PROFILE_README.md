@@ -8,10 +8,10 @@
 
 > **Systems Software Engineer** · Kernel Infrastructure, Custom CI/CD Runners & Bare-Metal Performance Engineering.
 
-GitLab workspace dedicated to bare-metal kernel validation, continuous benchmarking pipelines, and self-hosted CI/CD automation for Linux eBPF/XDP network stacks.
+GitLab workspace dedicated to bare-metal kernel validation, continuous benchmarking pipelines, and self-hosted CI/CD pipelines and bare-metal environments for Linux eBPF/XDP network stacks.
 
 - 📍 Location: Seoul, South Korea (UTC+9)
-- 💼 Core Focus: Linux Kernel Subsystems, Bare-Metal CI Automation, Hardware Performance Counters
+- 💼 Core Focus: Linux Kernel Subsystems, Bare-Metal CI Infrastructure, Hardware Performance Counters
 - 🔗 Primary Hub: [GitHub @johyojun339-lgtm](https://github.com/johyojun339-lgtm)
 - 📬 Contact: `johyojun339@gmail.com`
 
@@ -33,7 +33,7 @@ GitLab workspace dedicated to bare-metal kernel validation, continuous benchmark
 ```
 +--------------------------------------------------------------------------+
 |  ebpf-kernel-matrix-ci                                                   |
-|  Automated continuous testing pipeline verifying eBPF CO-RE bytecode     |
+|  Multi-kernel continuous testing pipeline verifying eBPF CO-RE bytecode  |
 |  compatibility across 14 distinct Linux kernel versions (5.4 to 6.12+).  |
 +--------------------------------------------------------------------------+
 |  xdp-bench-harness                                                       |
@@ -47,7 +47,7 @@ GitLab workspace dedicated to bare-metal kernel validation, continuous benchmark
 - **Artifacts**: Produces deterministic BTF dump files and compiler diagnostic logs.
 
 ### 2. `xdp-bench-harness`
-- **Purpose**: Executes automated night-run benchmarks against physical NIC drivers to catch tail-latency regressions before release tags.
+- **Purpose**: Executes scheduled bare-metal benchmarks against physical NIC drivers to catch tail-latency regressions before release tags.
 
 ---
 
@@ -61,6 +61,6 @@ GitLab workspace dedicated to bare-metal kernel validation, continuous benchmark
 
 ## 📬 Contact & Mirror Sync
 
-- **Mirror Status**: Public source repositories are mirrored automatically with [GitHub](https://github.com/johyojun339-lgtm).
+- **Mirror Status**: Public source repositories are synchronized directly with [GitHub](https://github.com/johyojun339-lgtm).
 - **Email**: `johyojun339@gmail.com`
 - **GPG Key**: `4A8F B120 9C7E 38A1` (Signed commits enforced across all branches)

@@ -24,7 +24,7 @@ Projeto e otimizo software de baixo nível onde cada microssegundo (μs) faz a d
 | :--- | :--- |
 | **Sistemas Principais** | Rust (nightly/stable), C (C11/C23), Go (1.23+), Assembly x86-64 / AArch64 |
 | **Kernel e Rastreamento** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **Scripts e Automação** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **Scripts e Ferramentas de Sistema** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### Sistemas Operacionais e Infraestrutura
 | Domínio | Stack e Ambiente |

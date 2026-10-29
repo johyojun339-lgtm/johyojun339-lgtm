@@ -24,7 +24,7 @@ I design and optimize low-level software where microseconds matter. My work revo
 | :--- | :--- |
 | **Primary Systems** | Rust (nightly/stable), C (C11/C23), Go (1.23+), x86-64 / AArch64 Assembly |
 | **Kernel & Tracing** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **Scripting & Automation** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **Scripting & Systems Tooling** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### Operating Systems & Infrastructure
 | Domain | Stack & Environment |
@@ -75,6 +75,7 @@ I design and optimize low-level software where microseconds matter. My work revo
 2. **Explicit Over Implicit**: Zero-magic codebases. Explicit error returns, strict ownership semantics, and minimal runtime indirection.
 3. **Observability is Not an Afterthought**: If a system cannot be inspected under load with zero performance penalty, it is incomplete.
 4. **Data-Oriented Design**: Optimize for contiguous memory arrays and vectorized operations over deep object hierarchies.
+5. **Deterministic Concurrency & Safety**: Lock-free synchronization, bounded memory pools, and strict memory barrier semantics (acquire/release) to prevent contention and race conditions.
 
 ---
 

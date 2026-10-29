@@ -12,7 +12,7 @@
 
 - 📍 الموقع: سيول، كوريا الجنوبية (UTC+9)
 - 💼 المجالات الأساسية: الأنظمة الفرعية لنواة لينكس، eBPF/XDP، وهندسة أداء الشبكات
-- 💬 مجالات النقاش: موضع التخزين المؤقت (Cache Locality)، مخازن المقابس دون نسخ (Zero-Copy Socket Buffers)، بنيات المخزن الدائري (Ring Buffers)، آلية مدقق eBPF، وعمليات الإدخال/الإخراج عبر الذاكرة (mmap)
+- 💬 مجالات النقاش: موضع التخزين المؤقت (Cache Locality)، مخازن المقابس دون نسخ (Zero-Copy Socket Buffers)، بنيات المخزن الدائري (Ring Buffers)، خصائص وسلوك مدقق eBPF، وعمليات الإدخال/الإخراج عبر الذاكرة (mmap)
 - 📬 للتواصل: `johyojun339@gmail.com`
 
 ---
@@ -24,7 +24,7 @@
 | :--- | :--- |
 | **لغات النظم الأساسية** | Rust (nightly/stable), C (C11/C23), Go (1.23+), x86-64 / AArch64 Assembly |
 | **النواة والتتبع** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **البرمجة النصية والأتمتة** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **البرمجة النصية وأدوات النظم** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### أنظمة التشغيل والبنية التحتية
 | النطاق | المكونات وبيئات العمل |

@@ -24,7 +24,7 @@
 | :--- | :--- |
 | **주력 시스템 언어** | Rust (nightly/stable), C (C11/C23), Go (1.23+), x86-64 / AArch64 어셈블리 |
 | **커널 및 트레이싱** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **스크립팅 & 자동화** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **스크립팅 & 시스템 툴링** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### 운영체제 및 인프라
 | 영역 | 환경 및 도구 스택 |
@@ -75,6 +75,7 @@
 2. **암시적인 것보다 명시적인 것**: 마법 같은 추상화(Magic)를 지양합니다. 명확한 에러 반환, 엄격한 메모리 소유권 규칙, 런타임 간접 참조(Indirection) 최소화를 추구합니다.
 3. **관측성은 사후 고려 사항이 아니다**: 운영 환경에서 성능 저하 없이 내부 상태를 실시간 진단할 수 없는 시스템은 완성된 시스템이 아닙니다.
 4. **데이터 지향 설계(Data-Oriented Design)**: 깊은 객체 계층 구조 대신 연속된 메모리 배열과 벡터화 연산에 최적화된 데이터 레이아웃을 구성합니다.
+5. **결정론적 동시성 및 안전성(Deterministic Concurrency & Safety)**: 락프리(Lock-free) 동기화, 크기 제한 메모리 풀, 획득/해제(Acquire/Release) 메모리 배리어 시맨틱스를 통해 경쟁 상태와 성능 지터를 원천 차단합니다.
 
 ---
 

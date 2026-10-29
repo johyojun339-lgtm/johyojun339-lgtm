@@ -24,7 +24,7 @@ Je conçois et optimise des logiciels de bas niveau où chaque microseconde (μs
 | :--- | :--- |
 | **Systèmes Principaux** | Rust (nightly/stable), C (C11/C23), Go (1.23+), Assembleur x86-64 / AArch64 |
 | **Noyau et Traçage** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **Scripts et Automatisation** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **Scripts et outils système** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### Systèmes d'Exploitation et Infrastructure
 | Domaine | Environnement et Technologies |

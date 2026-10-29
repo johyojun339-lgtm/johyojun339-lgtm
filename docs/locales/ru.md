@@ -24,7 +24,7 @@
 | :--- | :--- |
 | **Основные языки** | Rust (nightly/stable), C (C11/C23), Go (1.23+), Ассемблер x86-64 / AArch64 |
 | **Ядро и трассировка** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **Скрипты и автоматизация** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **Скрипты и системные утилиты** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### Операционные системы и инфраструктура
 | Область | Стек и окружение |

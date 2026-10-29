@@ -24,7 +24,7 @@
 | :--- | :--- |
 | **प्राथमिक सिस्टम भाषाएँ** | Rust (nightly/stable), C (C11/C23), Go (1.23+), x86-64 / AArch64 असेंबली |
 | **कर्नेल और ट्रेसिंग** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **स्क्रिप्टिंग और ऑटोमेशन** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **स्क्रिप्टिंग और सिस्टम टूल्स** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### ऑपरेटिंग सिस्टम और इन्फ्रास्ट्रक्चर
 | डोमेन | स्टैक और वातावरण |

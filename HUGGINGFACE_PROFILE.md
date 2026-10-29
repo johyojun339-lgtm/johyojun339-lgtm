@@ -8,7 +8,7 @@ GitHub: [@johyojun339-lgtm](https://github.com/johyojun339-lgtm) · Email: `johy
 
 ## 🔬 Research & Open-Source Focus on Hugging Face
 
-While my primary software development lives at the Linux kernel and network layer, I utilize Hugging Face to share benchmarks, datasets, and lightweight tooling at the boundary between hardware systems and machine learning workloads:
+While my primary software engineering focuses on the Linux kernel and low-level networking, I utilize Hugging Face to share reproducible benchmarks, system traces, and runtime telemetry at the boundary of hardware performance and computational workloads:
 
 ### 1. Distributed Training Network Telemetry Datasets
 - **`nccl-trace-packet-dumps`**: High-resolution packet traces and socket buffer queue telemetry captured via eBPF during multi-node GPU all-reduce / all-gather synchronization phases.

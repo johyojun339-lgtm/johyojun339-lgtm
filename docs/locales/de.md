@@ -24,7 +24,7 @@ Ich entwerfe und optimiere systemnahe Software, bei der Mikrosekunden (μs) zäh
 | :--- | :--- |
 | **Primäre Systemsprachen** | Rust (nightly/stable), C (C11/C23), Go (1.23+), x86-64 / AArch64 Assembler |
 | **Kernel und Tracing** | Linux eBPF (`libbpf`, `aya-rs`), XDP, `kprobes`/`uprobes`, `tracepoints`, `perf_events` |
-| **Skripte und Automatisierung** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
+| **Skripte und System-Tools** | POSIX Shell / Bash, Python 3, PowerShell Core, AWK / Sed |
 
 ### Betriebssysteme und Infrastruktur
 | Domäne | Stack und Umgebung |
