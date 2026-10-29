@@ -1,0 +1,11 @@
+# Environment variables & secrets
+.env
+.env.*
+tokens.json
+config.json
+
+# Local scripts & browser profile
+chrome_profile/
+*.mjs
+*.js
+node_modules/
